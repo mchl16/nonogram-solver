@@ -1,9 +1,10 @@
 # nonogram-solver
-Nonogram solver written in Python quite a long time ago, back when I was a sophomore. It works best when run using `PyPy` as its Python interpreter.
+Nonogram solver written in Python quite a long time ago, back when I was a sophomore. 
 
 ## How to use
-If run with `debug` as parameter, the program reads two integers: `n` and `m`, then `n+m` lines describing constraints for rows and columns. The output will be printed to `stdout`. <br>
-Otherwise, the same values will be read from `zad_input.txt` and written to `zad_output.txt`.
+The solver works best when run using `PyPy` as its Python interpreter. 
+
+If run with `debug` as parameter, the program reads two integers: `n` and `m`, then `n+m` lines describing constraints for rows and columns. The output will be printed to `stdout`. Otherwise, the same values will be read from `zad_input.txt` and written to `zad_output.txt`.
 
 ## How it works
 1. Possible fillings of rows/columns are generated;
